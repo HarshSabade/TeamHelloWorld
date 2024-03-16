@@ -11,7 +11,6 @@ img{
     object-fit: contain;
     width: auto;
     height: 300px;
-    border-radius: 7px;
 }
 .users{
     margin-top: 30px;
@@ -24,10 +23,10 @@ img{
     display: flex;
     flex-flow: row;
     gap: 25px;
-    height: 470px;
+    height: 500px;
 }
 .card1,.card2,.card3{
-    background-color: rgb(171, 197, 195);
+    background-color: rgba(6, 32, 61, 0.301);
     display: flex;
     border-radius: 7px;
     flex-flow: column wrap;
@@ -37,4 +36,7 @@ img{
 .info{
     width: 350px;
     margin: 20px;
+}
+.btn{
+    margin-top: 15px;
 }
