@@ -95,3 +95,8 @@ button:hover {
     color: green;
     font-weight: bold;
 }
+.d-flex{
+    display: flex;
+    flex-flow: row;
+    height: 55px;
+}
